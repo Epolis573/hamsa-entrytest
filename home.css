@@ -243,8 +243,8 @@ html, body {
 }
 
 .leftstuffs-content {
-    margin-top: 55px;
-    height: 70%;
+    margin-top: 5.65262076vh;
+    height: 60%;
     display: flex;
     flex-direction: column;
     gap: 26%; 
@@ -397,10 +397,6 @@ html, body {
 @media (max-height: 791px) {
     .catalogs-menu {
         width: 100vw;
-    }
-    .copyright, .social{
-        max-height: 60%;
-        max-width: 60%;
     }
 }
 
