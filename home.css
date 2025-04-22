@@ -394,7 +394,7 @@ html, body {
         width: 100vw;
     }
 }
-@media (max-height: 791px) {
+@media (max-height: 1200px) {
     .catalogs-menu {
         width: 100vw;
     }
@@ -503,17 +503,33 @@ html, body {
     }
 }
 
-@media (aspect-ratio: 8/5) {
+@media (aspect-ratio: 8/5) and (min-width: 1200px) {
     .leftstuffs-content {
-      padding: 8px 24px;
-      font-size: 0.9em;
-      gap: 8px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100vw;
+      margin: 0;
+      height: auto;
+      gap: 0;
+      padding: 16px 32px;
     }
-    .leftstuffs-content .copyright a,
-    .leftstuffs-content .social a {
-      font-size: 0.9em;
+    .social {
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      width: auto;
     }
-    .leftstuffs-content img {
+    .social a {
+      font-size: 16px;
+      writing-mode: horizontal-tb;
+    }
+    .copyright a {
+      font-size: 16px;
+      writing-mode: horizontal-tb;
+      gap: 10px;
+    }
+    .social img, .leftstuffs-content img {
       max-width: 20px;
       max-height: 20px;
     }
