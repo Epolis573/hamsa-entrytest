@@ -497,3 +497,19 @@ html, body {
         font-size: 14px;
     }
 }
+
+@media (aspect-ratio: 8/5) {
+    .leftstuffs-content {
+      padding: 8px 24px;
+      font-size: 0.9em;
+      gap: 8px;
+    }
+    .leftstuffs-content .copyright a,
+    .leftstuffs-content .social a {
+      font-size: 0.9em;
+    }
+    .leftstuffs-content img {
+      max-width: 20px;
+      max-height: 20px;
+    }
+  }
